@@ -71,7 +71,7 @@ header .header_top{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
+    height: fit-content;
 }
 
 .cards{
@@ -89,4 +89,42 @@ header .header_top{
 
 .main_body .part_1 h1{
     font-size: 60px;
+}
+
+.part_2{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    flex: 1;
+    padding: 150px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    flex-wrap: wrap;
+    flex-basis: 400px;
+}
+.quote_text{
+    font-size: 35px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    font-style: italic;
+    align-self: center;
+}
+.quote_person{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 450px;
+
+}
+.quote_person_name{
+    display: flex;
+    justify-content: end;
+    width: fit-content;
+    font-size: 17px;
 }
