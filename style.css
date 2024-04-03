@@ -57,4 +57,36 @@ header .header_top{
     font-size: 24px;
 }
 
+.box_1,
+.box_2,
+.box_3,
+.box_4{
+    height: 200px;
+    width: 200px;
+    border: #3882f6 4px solid;
+    border-radius: 20px;
+}
 
+.part_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    flex-basis: 200px;
+}
+
+.main_body .part_1 h1{
+    font-size: 60px;
+}
