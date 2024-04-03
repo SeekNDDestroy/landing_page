@@ -128,3 +128,33 @@ header .header_top{
     width: fit-content;
     font-size: 17px;
 }
+
+
+.part_3{
+    height: fit-content;
+    padding: 300px;
+}
+
+.sign_up_banner{
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.part_3 .sign_up_banner button{
+    color:white;
+    background-color: #3882f6;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.sign_up_button{
+    display: flex;
+    align-items: center;
+}
