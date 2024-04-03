@@ -1,7 +1,11 @@
+body{
+    font-family: 'Roboto Mono';
+}
 header{
     background-color: #1f2937;
     color: white;
-    height: 600px;
+    height: fit-content;
+    padding-bottom: 40px;
 }
 
 header a{
@@ -52,3 +56,5 @@ header .header_top{
 .header_bottom_text_and_button .header_secondary_text{
     font-size: 24px;
 }
+
+
