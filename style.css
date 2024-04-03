@@ -132,7 +132,7 @@ header .header_top{
 
 .part_3{
     height: fit-content;
-    padding: 300px;
+    padding: 200px;
 }
 
 .sign_up_banner{
@@ -157,4 +157,12 @@ header .header_top{
 .sign_up_button{
     display: flex;
     align-items: center;
+}
+
+footer{
+    height: 70px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
